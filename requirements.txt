@@ -1,0 +1,21 @@
+# requirements.txt
+torch>=2.0.0
+transformers>=4.30.0
+datasets>=2.10.0
+fastapi>=0.100.0
+uvicorn[standard]>=0.20.0
+pydantic>=2.0.0
+accelerate>=0.20.0
+tokenizers>=0.13.0
+numpy
+requests
+python-multipart
+pandas
+matplotlib
+seaborn
+
+# Cài đặt CUDA cho PyTorch (tùy chọn, uncomment nếu cần)
+# --index-url https://download.pytorch.org/whl/cu118
+# torch==2.0.0+cu118
+# torchvision==0.15.0+cu118
+# torchaudio==2.0.0+cu118

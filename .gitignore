@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data & Models
+*.db
+*.sqlite3
+models/
+fine_tuned_model/
+checkpoint-*/
+*.bin
+*.safetensors
+*.pt
+*.pth
+cache/
+logs/*.log
+data/crawled/
+data/processed/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Reports
+reports/*.png
+reports/*.html

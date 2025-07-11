@@ -1,0 +1,19 @@
+{
+    "zalo": {
+        "app_secret": "MJO6GxU8NydtN7hERS5n",
+        "oa_secret_key": "xEpeaB5Gnb64mO5bbHsb",
+        "access_token": "71c37aYKOnGI4uaQJPbY6HWNZ1fDXcLGG679FtQmMKfTDzSSUE1uJsOTz3Cw-dvQFGB4K1cAMp87PkLTFhCFF6fJxp1jX4DyU4ZE37Q-Nb5FUTa8Rv10KcfM-ZPGZd8vTtlXIdFpLXj79S1fJTDQ9qu_u2bOx7T80HVAB3oOAtGvGyi468fzL15DaoWodWL06tYdDm64INXOSFy1TOqI3sjqXMra-Zi2OYUp3KBwMN0SDgm19_j6ImWXyZychcur8tJnO1M2HHqVJQjg6SerEYKUWqrmaZORPbwN4L_H6N9nDeGuICGTT7H8bm1maorG94Ez03sI4qm3P-ObLvTSR7z9t3zLX798S7sR5sYZ75jDAeCCPVXi6cLrxKTikK5BOcNf8c7hKr1S6iqoOeWaC3jJZc8jimCURB_OEqI8QHK"
+    },
+    "ai": {
+        "model_name": "microsoft/DialoGPT-small",
+        "max_length": 512,
+        "batch_size": 4,
+        "learning_rate": 5e-5,
+        "auto_training_threshold": 50
+    },
+    "server": {
+        "host": "0.0.0.0",
+        "port": 8000,
+        "workers": 1
+    }
+}

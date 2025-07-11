@@ -1,0 +1,48 @@
+{
+  "name": "zalo-oa-ai-bot",
+  "version": "2.0.0",
+  "description": "🤖 Zalo OA AI Bot with Auto Learning & GPU Training",
+  "main": "enhanced_working_server.py",
+  "scripts": {
+    "start": "python enhanced_working_server.py",
+    "dev": "python working_ai_server.py",
+    "test": "python working_management.py test --message 'Hello'",
+    "health": "python working_management.py health",
+    "stats": "python working_management.py stats",
+    "train": "python working_management.py train --force",
+    "setup": "pip install -r requirements.txt",
+    "deploy": "echo 'Deploy cloudflare_worker_production.js to Cloudflare Workers'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/namhbcf1/zalooa.git"
+  },
+  "keywords": [
+    "zalo",
+    "chatbot",
+    "ai",
+    "machine-learning",
+    "auto-learning",
+    "gpu-training",
+    "cloudflare-workers",
+    "vietnamese",
+    "pc-gaming"
+  ],
+  "author": "namhbcf1",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/namhbcf1/zalooa/issues"
+  },
+  "homepage": "https://github.com/namhbcf1/zalooa#readme",
+  "engines": {
+    "python": ">=3.8"
+  },
+  "dependencies": {
+    "python": ">=3.8"
+  },
+  "devDependencies": {},
+  "cloudflare": {
+    "worker_url": "https://zaloapi.bangachieu2.workers.dev",
+    "dashboard": "https://dash.cloudflare.com/5b62d10947844251d23e0eac532531dd/workers/services/view/zaloapi/production/metrics"
+  }
+}

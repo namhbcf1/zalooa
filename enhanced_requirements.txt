@@ -1,0 +1,66 @@
+# enhanced_requirements.txt - Requirements cho Auto Learning System
+
+# Core AI/ML
+torch>=2.0.0
+transformers>=4.30.0
+datasets>=2.10.0
+tokenizers>=0.13.0
+accelerate>=0.20.0
+scikit-learn>=1.3.0
+
+# Web Framework
+fastapi>=0.100.0
+uvicorn[standard]>=0.20.0
+pydantic>=2.0.0
+
+# Web Scraping & HTTP
+aiohttp>=3.8.0
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+selenium>=4.10.0
+fake-useragent>=1.2.0
+
+# Vietnamese NLP
+underthesea>=6.6.0
+pyvi>=0.1.1
+vncorenlp>=1.0.3
+
+# Database & Storage
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Scheduling & Background Tasks
+schedule>=1.2.0
+celery>=5.3.0
+redis>=4.5.0
+
+# Data Processing
+scikit-learn>=1.3.0
+nltk>=3.8.0
+spacy>=3.6.0
+
+# Monitoring & Logging
+loguru>=0.7.0
+prometheus-client>=0.17.0
+
+# Utilities
+python-dotenv>=1.0.0
+python-multipart>=0.0.6
+httpx>=0.24.0
+asyncio-throttle>=1.0.2
+
+# Development & Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+black>=23.0.0
+flake8>=6.0.0
+
+# Optional: GPU Support (uncomment if needed)
+# --index-url https://download.pytorch.org/whl/cu118
+# torch==2.0.0+cu118
+# torchvision==0.15.0+cu118
+# torchaudio==2.0.0+cu118
+
+# Optional: Advanced NLP Models
+# sentence-transformers>=2.2.0
+# langchain>=0.0.200
