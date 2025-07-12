@@ -1,0 +1,7 @@
+
+name = "zaloapi"
+main = "cloudflare_worker_final.js"
+compatibility_date = "2023-12-01"
+
+[env.production]
+account_id = "5b62d10947844251d23e0eac532531dd"
